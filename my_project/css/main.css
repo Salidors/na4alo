@@ -1,0 +1,320 @@
+html,
+body {
+    font-size: 16px;
+    line-height: 1.15;
+    min-height: 400px;
+
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    transition: 0.5s case-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*  ++++++++++++++++++++++++++++ 
+Сетка/grid
++++++++++++++++++++++  */
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row {}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.c-4 {
+    width: 360px;
+    margin-left: 30px;
+    float: left;
+}
+
+.c-4:last-child {
+    margin-right: 0px;
+}
+
+
+/*  ++++++++++++++++++++++++++++ 
+Заголовок/header
++++++++++++++++++++++  */
+.header {
+    background: #87CEFA;
+    background-image: url('../img/bg/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    min-height: 100px;
+
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h_title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: -55px;
+}
+
+.h_slogan {
+    font-size: 30px;
+    line-height: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.h_arrow {
+    font-size: 40px;
+    width: 50px;
+    margin-left: -30px;
+    position: absolute;
+    bottom: 210px;
+    left: 50%;
+}
+
+
+/*  ++++++++++++++++++++++++++++ 
+Описание/INFO
++++++++++++++++++++++  */
+
+.pf {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.pf {
+    margin-bottom: 20px;
+
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pf-item_img {
+    margin-bottom: 20px;
+}
+
+.pf-item_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pf-item_title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.pf-item_title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #fff;
+}
+
+.pf-item_title a:hover {
+    color: #0052c2;
+}
+
+.pf-item_txt p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+/*  ++++++++++++++++++++++++++++ 
+Второй/single
++++++++++++++++++++++  */
+
+.pf_sp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pf_sp img {
+    margin: 0 auto 50px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+
+}
+
+.button_back {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #000;
+    display: inline-block;
+
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+
+.button_back:hover {
+    /*color: #ffff00;*/
+    background-color: #000;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  ++++++++++++++++++++++++++++ 
+подвал/footer
++++++++++++++++++++++  */
+
+.footer {
+    background-color: #9400d3;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.ft_name {
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+p.ft_soc {
+    color: #fff;
+    font-size: 30px;
+}
+
+p.ft_soc-icon {
+    color: #fff;
+    font-size: 30px;
+}
+
+p.ft_soc-icon a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 28px;
+}
+
+
+p.ft_soc-icon a:hover {
+    color: #ffff00;
+}
+
+.button {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #fff;
+    display: inline-block;
+
+    border-width: 3px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    /*color: #ffff00;*/
+    background-color: #ffff00;
+    color: #000;
+
+}
+
+/*  ++++++++++++++++++++++++++++ 
+Адаптаия/adaptation
++++++++++++++++++++++  */
+
+@media (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+
+    .c-4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .header {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .h_title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 14px;
+    }
+
+
+    .h_slogan {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pf {
+        padding-bottom: 30px;
+        padding-top: 25px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+
+}

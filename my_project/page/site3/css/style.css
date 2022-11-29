@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Releway', sans-serif;
+}
+
+/*  ++++++++++++++++++++++++++++ 
+body
++++++++++++++++++++++  */
+
+.pf_sp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pf_sp img {
+    margin: 0 auto 50px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    
+}
+
+.button_back {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #000;
+    display: inline-block;
+    
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+
+.button_back:hover {
+    /*color: #ffff00;*/
+    background-color: #000;
+    color: #fff;
+    
+}
+
+
+/*  ++++++++++++++++++++++++++++ 
+navigation
++++++++++++++++++++++  */
+
+nav {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    }
+
+.topnav {
+    background-color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.topnav a {
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #000;
+    }
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px;) {
+    .topnav a:not (:first-child) {display: none;
+    text-align: left;}
+
+
+.topnav a.icon {
+    float: right;
+    margin-top: -7px;
+    display: block;
+    color: black;
+}
+nav {
+    width: 100%;
+    height: 50px;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
